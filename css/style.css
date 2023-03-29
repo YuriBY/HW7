@@ -1,0 +1,172 @@
+.rectangle {
+    width: 555px;
+    height: 296px;
+    box-sizing: border-box;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+    position: relative;
+}
+
+section {
+display: flex;
+justify-content: center;
+}
+
+.rectangle div {
+margin-left: 35px;
+color: white;
+text-transform: uppercase;
+
+}
+
+.rectangle div:nth-child(1) {
+    margin-top: 75px;
+    color: #F4F9FC;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+   
+    opacity: 0.6;
+    
+    }
+
+    .rectangle div:nth-child(2) {
+        width: 285px;
+        height: 81px;
+        font-family: 'Hind Siliguri';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 40px;
+        /* or 130% */
+        /* #E6EDF2 */
+        color: #F4F9FC;
+        text-transform: none;
+       
+        }
+
+        
+
+.rectangle img {
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    width: 275px;
+    height: 231px;
+}
+
+.title_2 {
+
+    width: 180px;
+    height: 23px;
+    margin-left: 850px;
+    margin-top: 125px;
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+
+    /* #C72535 */
+
+    color: #C72535;
+
+    opacity: 0.6;
+}
+
+.big_title {
+    margin-left: 850px;
+    width: 378px;
+    height: 71px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 71px;
+
+    /* B */
+
+    color: #030D15;
+
+}
+
+main {
+    width: vw;
+    height: 632px;
+    background: #F4F9FC;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.main__text {
+    width: 557px;
+    height: 450px;
+    margin-left: 196px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: #030D15;
+    margin-bottom: 20px;
+    
+}
+
+.main__text :nth-child(1) {
+    margin-top: 84px;
+    width: 457px;
+    height: 158px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030D15;
+    opacity: 0.6;
+}
+
+
+.main__text :not(:nth-child(1))::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../img/2023-03-29_21-20-36.png');
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+
+}
+
+/* main img {
+    margin-left: 100px;
+} */
+
+.image {
+    
+    width: 555px;
+    height: 805px;
+    margin-left: 100px;       
+    border-radius: 50% 60% 10% 10%; 
+    /* background: url('../img/Layer\ 0\ 1.png');
+  
+    background-repeat: no-repeat; */
+    background-color: #008BF0;
+    transform: translateY(-165px);
+  
+    
+}
+
+
+
+
+
