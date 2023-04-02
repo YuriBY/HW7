@@ -23,7 +23,7 @@ text-transform: uppercase;
 .rectangle div:nth-child(1) {
     margin-top: 75px;
     color: #F4F9FC;
-    font-family: 'Hind Siliguri';
+    font-family: 'Hind Siliguri', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -37,7 +37,7 @@ text-transform: uppercase;
     .rectangle div:nth-child(2) {
         width: 285px;
         height: 81px;
-        font-family: 'Hind Siliguri';
+        font-family: 'Hind Siliguri', 'sans-serif';
         font-style: normal;
         font-weight: 600;
         font-size: 31px;
@@ -66,7 +66,7 @@ text-transform: uppercase;
     margin-left: 850px;
     margin-top: 125px;
 
-    font-family: 'Hind Siliguri';
+    font-family: 'Hind Siliguri', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -87,7 +87,7 @@ text-transform: uppercase;
     margin-left: 850px;
     width: 378px;
     height: 71px;
-    font-family: 'Hind Siliguri';
+    font-family: 'Hind Siliguri', 'sans-serif';
     font-style: normal;
     font-weight: 600;
     font-size: 44px;
@@ -113,7 +113,7 @@ main {
     width: 557px;
     height: 450px;
     margin-left: 196px;
-    font-family: 'Hind Siliguri';
+    font-family: 'Hind Siliguri', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -153,14 +153,13 @@ main {
 
 .image {
     
-    width: 555px;
-    height: 805px;
+    width: 609px;
+    height: 813px;
     margin-left: 100px;       
-    border-radius: 50% 60% 10% 10%; 
-    /* background: url('../img/Layer\ 0\ 1.png');
-  
-    background-repeat: no-repeat; */
-    background-color: #008BF0;
+    border-radius: 10% 10% 20% 10%; 
+    background: url('../img/Layer\ 0\ 1.png'), url('../img/Vector\ \(5\).png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 45px 10px, 19px 236px;
     transform: translateY(-165px);
   
     
